@@ -1,0 +1,248 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-03-30T18:26:39Z",
+  "lastModifiedAgent" : "structurizr-web/2706/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgaGVsaXVtTWluZXIgPSBzb2Z0d2FyZVN5c3RlbSAiSGVsaXVtIE1pbmVyIgogICAgICAgIGthc2FTbWFydFBsdWcgPSBzb2Z0d2FyZVN5c3RlbSAiS2FzYSBTbWFydCBQbHVnIgogICAgICAgIGthc2FSZW1vdGVTZXJ2aWNlID0gc29mdHdhcmVTeXN0ZW0gIkthc2EgU21hcnQgUGx1ZyBSZW1vdGUgU2VydmljZSIKCiAgICAgICAgaGVsaXVtTWluZXJNYW5hZ2VyID0gc29mdHdhcmVTeXN0ZW0gIkhlbGl1bSBNaW5lciBNYW5hZ2VyIiB7CiAgICAgICAgICAgIG1pbmVyS2VlcGVyID0gY29udGFpbmVyICJSdXN0IFByb2Nlc3MgaW4gUmFzcGVycnkgUGkiCiAgICAgICAgfQoKCiAgICAgICAgaGVsaXVtTWluZXJNYW5hZ2VyIC0+IGhlbGl1bU1pbmVyICJNYWtlIEhUVFAgcmVxdWVzdCB0byIKICAgICAgICBoZWxpdW1NaW5lck1hbmFnZXIgLT4ga2FzYVJlbW90ZVNlcnZpY2UgIk1ha2UgSFRUUCByZXF1ZXN0IHRvIgogICAgICAgIGthc2FSZW1vdGVTZXJ2aWNlIC0+IGthc2FTbWFydFBsdWcgIlNlbmQgY29tbWFuZCB0byIKICAgICAgICBrYXNhU21hcnRQbHVnIC0+IGhlbGl1bU1pbmVyICJUdXJuIG9uL29mZiIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtTGFuZHNjYXBlIGhlbGl1bU1pbmluZyAiSGVsaXVtIG1pbmluZyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3lzdGVtQ29udGV4dCBoZWxpdW1NaW5lck1hbmFnZXIgIkhlbGl1bU1pbmVyTWFuYWdlciIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBoZWxpdW1NaW5lck1hbmFnZXIga2VlcE1pbmVyV29ya2luZyAiTWFrZSBzdXJlIG1pbmVyIGlzIG9ubGluZSBhbmQgbWluaW5nIEhlbGl1bS4iIHsKICAgICAgICAgICAgbWluZXJLZWVwZXIgLT4gaGVsaXVtTWluZXIgIkNoZWNrIGlmIG1pbmVyIGlzIGhlYWx0aHkuIiAiSHR0cCIKICAgICAgICAgICAgbWluZXJLZWVwZXIgLT4ga2FzYVJlbW90ZVNlcnZpY2UgIlR1cm4gc21hcnQgcGx1ZyBvbiBhbmQgb2ZmLiIgIkh0dHAiCiAgICAgICAgICAgIGthc2FSZW1vdGVTZXJ2aWNlIC0+IGhlbGl1bU1pbmVyICJSZXN0YXJ0IiAiUG93ZXIgb24gYW5kIG9mZiIKCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "name" : "Helium Miner",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "name" : "Kasa Smart Plug",
+      "relationships" : [ {
+        "id" : "9",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "1",
+        "description" : "Turn on/off"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "name" : "Helium Miner Manager",
+      "relationships" : [ {
+        "id" : "7",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "3",
+        "description" : "Make HTTP request to"
+      }, {
+        "id" : "6",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "Make HTTP request to"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "Rust Process in Rasperry Pi",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "3",
+          "description" : "Turn smart plug on and off.",
+          "technology" : "Http"
+        }, {
+          "id" : "10",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "1",
+          "description" : "Check if miner is healthy.",
+          "technology" : "Http"
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Kasa Smart Plug Remote Service",
+      "relationships" : [ {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "1",
+        "description" : "Restart",
+        "technology" : "Power on and off"
+      }, {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "2",
+        "description" : "Send command to"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "description" : "Helium mining",
+      "key" : "heliumMining",
+      "order" : 1,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1208,
+        "height" : 2516
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 2008
+      }, {
+        "id" : "2",
+        "x" : 550,
+        "y" : 1408
+      }, {
+        "id" : "3",
+        "x" : 550,
+        "y" : 808
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 208
+      } ],
+      "relationships" : [ {
+        "id" : "6",
+        "vertices" : [ {
+          "x" : 400,
+          "y" : 808
+        }, {
+          "x" : 400,
+          "y" : 1708
+        } ]
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "4",
+      "key" : "HeliumMinerManager",
+      "order" : 2,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1616,
+        "height" : 1316
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 808
+      }, {
+        "id" : "3",
+        "x" : 958,
+        "y" : 808
+      }, {
+        "id" : "4",
+        "x" : 583,
+        "y" : 208
+      } ],
+      "relationships" : [ {
+        "id" : "6"
+      }, {
+        "id" : "7"
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "description" : "Make sure miner is online and mining Helium.",
+      "key" : "keepMinerWorking",
+      "order" : 3,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1341,
+        "height" : 2054
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elementId" : "4",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "10",
+        "description" : "Check if miner is healthy.",
+        "order" : "1",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 473,
+          "y" : 886
+        }, {
+          "x" : 473,
+          "y" : 1186
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Turn smart plug on and off.",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "12",
+        "description" : "Restart",
+        "order" : "3",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 282,
+        "y" : 1486
+      }, {
+        "id" : "3",
+        "x" : 623,
+        "y" : 886
+      }, {
+        "id" : "5",
+        "x" : 286,
+        "y" : 286
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "keepMinerWorking"
+    }
+  }
+}

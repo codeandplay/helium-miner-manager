@@ -1,0 +1,63 @@
+[INFO ] 2022-03-30 17:49:26.973 [main] Configuration - ***********************************************************************************
+[INFO ] 2022-03-30 17:49:26.977 [main] Configuration -    _____ _                   _              _          
+[INFO ] 2022-03-30 17:49:26.978 [main] Configuration -   / ____| |                 | |            (_)         
+[INFO ] 2022-03-30 17:49:26.979 [main] Configuration -  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+[INFO ] 2022-03-30 17:49:26.979 [main] Configuration -   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+[INFO ] 2022-03-30 17:49:26.980 [main] Configuration -   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+[INFO ] 2022-03-30 17:49:26.981 [main] Configuration -  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+[INFO ] 2022-03-30 17:49:26.981 [main] Configuration -                                                        
+[INFO ] 2022-03-30 17:49:26.982 [main] Configuration -  Structurizr Lite
+[INFO ] 2022-03-30 17:49:26.983 [main] Configuration -  Build: 2706
+[INFO ] 2022-03-30 17:49:26.985 [main] Configuration -  Built: 2022-03-27T08:42:34Z
+[INFO ] 2022-03-30 17:49:26.994 [main] Configuration -  Structurizr DSL: v1.19.1
+[INFO ] 2022-03-30 17:49:26.995 [main] Configuration - 
+[INFO ] 2022-03-30 17:49:26.995 [main] Configuration -  Workspace path: /usr/local/structurizr
+[INFO ] 2022-03-30 17:49:26.996 [main] Configuration -  URL: 
+[INFO ] 2022-03-30 17:49:26.997 [main] Configuration -  Memory: used=117MB; free=138MB; total=256MB; max=256MB
+[INFO ] 2022-03-30 17:49:26.999 [main] Configuration - ***********************************************************************************
+[ERROR] 2022-03-30 18:14:31.736 [http-nio-8080-exec-10] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Helium Miner Manager is already the scope of this view and cannot be added to it at line 28: heliumMinerManager -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:14:31.738 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Helium Miner Manager is already the scope of this view and cannot be added to it at line 28: heliumMinerManager -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:14:38.056 [http-nio-8080-exec-5] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:14:38.077 [http-nio-8080-exec-5] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:14:46.724 [http-nio-8080-exec-2] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Helium Miner Manager is already the scope of this view and cannot be added to it at line 28: heliumMinerManager -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:14:46.725 [http-nio-8080-exec-2] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Helium Miner Manager is already the scope of this view and cannot be added to it at line 28: heliumMinerManager -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:16:46.710 [http-nio-8080-exec-8] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:16:46.719 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:16:47.368 [http-nio-8080-exec-6] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:16:47.369 [http-nio-8080-exec-6] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:16:54.379 [http-nio-8080-exec-1] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:16:54.382 [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:17:01.152 [http-nio-8080-exec-10] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:17:01.153 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:17:28.152 [http-nio-8080-exec-9] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:17:28.178 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[WARN ] 2022-03-30 18:17:28.869 [http-nio-8080-exec-7] ViewSet - Could not find a matching view for "Helium Miner Manager - Dynamic" ... diagram layout information may be lost.
+[ERROR] 2022-03-30 18:17:47.636 [http-nio-8080-exec-8] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:17:47.637 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:18:07.349 [http-nio-8080-exec-1] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:18:07.364 [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:21:40.915 [http-nio-8080-exec-2] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The software system or container "keepMinerWorking" does not exist at line 30: dynamic keepMinerWorking "Make sure miner is online and mining Helium." {
+[ERROR] 2022-03-30 18:21:40.917 [http-nio-8080-exec-2] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The software system or container "keepMinerWorking" does not exist at line 30: dynamic keepMinerWorking "Make sure miner is online and mining Helium." {
+[WARN ] 2022-03-30 18:21:45.909 [http-nio-8080-exec-9] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:21:45.925 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:22:24.824 [http-nio-8080-exec-8] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: View keys can only contain the following characters: a-zA-0-9_- at line 30: dynamic heliumMinerManager "Make sure miner is online and mining Helium." {
+[ERROR] 2022-03-30 18:22:24.825 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: View keys can only contain the following characters: a-zA-0-9_- at line 30: dynamic heliumMinerManager "Make sure miner is online and mining Helium." {
+[WARN ] 2022-03-30 18:22:30.746 [http-nio-8080-exec-6] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:22:30.756 [http-nio-8080-exec-6] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:22:33.145 [http-nio-8080-exec-1] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: View keys can only contain the following characters: a-zA-0-9_- at line 30: dynamic heliumMinerManager "Make sure miner is online and mining Helium." {
+[ERROR] 2022-03-30 18:22:33.159 [http-nio-8080-exec-1] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: View keys can only contain the following characters: a-zA-0-9_- at line 30: dynamic heliumMinerManager "Make sure miner is online and mining Helium." {
+[WARN ] 2022-03-30 18:22:43.210 [http-nio-8080-exec-3] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:22:43.217 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:23:46.346 [http-nio-8080-exec-9] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[ERROR] 2022-03-30 18:23:46.347 [http-nio-8080-exec-9] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "minerKeeper" does not exist at line 31: minerKeeper -> heliumMiner "Check if miner is healthy." "Http"
+[WARN ] 2022-03-30 18:24:32.820 [http-nio-8080-exec-7] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:24:32.823 [http-nio-8080-exec-7] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:24:33.726 [http-nio-8080-exec-6] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The software system or container "minerKeeper" does not exist at line 32: dynamic minerKeeper keepMinerWorking "Make sure miner is online and mining Helium." {
+[ERROR] 2022-03-30 18:24:33.728 [http-nio-8080-exec-6] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The software system or container "minerKeeper" does not exist at line 32: dynamic minerKeeper keepMinerWorking "Make sure miner is online and mining Helium." {
+[WARN ] 2022-03-30 18:24:40.785 [http-nio-8080-exec-4] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:24:40.790 [http-nio-8080-exec-4] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[ERROR] 2022-03-30 18:24:48.305 [http-nio-8080-exec-3] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The software system or container "minerKeeper" does not exist at line 32: dynamic minerKeeper keepMinerWorking "Make sure miner is online and mining Helium." {
+[ERROR] 2022-03-30 18:24:48.306 [http-nio-8080-exec-3] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The software system or container "minerKeeper" does not exist at line 32: dynamic minerKeeper keepMinerWorking "Make sure miner is online and mining Helium." {
+[WARN ] 2022-03-30 18:25:08.114 [http-nio-8080-exec-10] PageNotFound - No mapping found for HTTP request with URI [/error] in DispatcherServlet with name 'root'
+[WARN ] 2022-03-30 18:25:08.121 [http-nio-8080-exec-10] DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+[WARN ] 2022-03-30 18:25:45.443 [http-nio-8080-exec-5] View - There is no layout information for the element named Rust Process in Rasperry Pi on view keepMinerWorking
